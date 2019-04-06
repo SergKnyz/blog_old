@@ -35,7 +35,7 @@ require('./lunr.ru.js')(lunr)
 require('./lunr.multi.js')(lunr)
  
  var idx = lunr(function () {
-    this.use(lunr.multiLanguage('en', 'ru'));
+    this.use(lunr.multiLanguage('en', 'ru'))
     this.ref('id')
     this.field('title')
     this.field('body')
