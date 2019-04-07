@@ -58,6 +58,7 @@
 function loadSearch(){
     // Create a new Index
     idx = lunr(function(){
+        this.use(lunr.multiLanguage('en', 'ru'));
         this.field('id')
         this.field('title', { boost: 10 })
         this.field('summary')
