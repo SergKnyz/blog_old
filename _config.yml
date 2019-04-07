@@ -34,7 +34,16 @@ authors:
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
- 
+
+    natale:
+      name:           Natale
+      site:           https://vk.com/id4804187
+      avatar:         /assets/images/avatar3.jpg
+      bio:            "на том и аминь."
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/wowthemesnet
+
+
 # Defaults
 defaults:
 
