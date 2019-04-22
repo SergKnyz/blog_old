@@ -5,7 +5,6 @@
             
         {% for category in site.categories %} 
         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a>            
-        {% assign pages_list = category[1] %}
         {% endfor %}
 
         </div>
