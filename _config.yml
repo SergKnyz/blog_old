@@ -19,7 +19,15 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    serg:
+      name:           Serg
+      site:           https://vk.com/opensong
+      avatar:         /assets/images/avatar4.jpg
+      bio:            "Администратор сообщества Open Song Ru"
+      email:          fakemail@gmail.com
+      twitter:        https://twitter.com/OpenSongRu
+	
+	sal:
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
