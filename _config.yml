@@ -19,8 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-
-sal:
+    sal:
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
@@ -36,7 +35,7 @@ natale:
       email:          fakemail@gmail.com
       twitter:        https://vk.com/id4804187
 
-serg:
+  serg:
       name:           Sergey
       site:           https://vk.com/opensong
       avatar:         /assets/images/avatar4.jpg
