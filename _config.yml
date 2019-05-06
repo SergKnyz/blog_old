@@ -1,5 +1,5 @@
 # Site
-name: 'Skb'
+name: 'git.io/Skb'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -49,7 +49,7 @@ authors:
       name:           Jane
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
+      bio:            "Блоггер, модница, люблю новые идеи и писать статьи за чашечкой утреннего кофе!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
