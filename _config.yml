@@ -19,6 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+
 serg:
       name:           Serg
       site:           https://vk.com/opensong
