@@ -20,7 +20,7 @@ plugins:
   
 authors:
 
-	sal:
+sal:
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
@@ -28,7 +28,7 @@ authors:
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-	jane:
+jane:
       name:           Jane
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
@@ -36,7 +36,7 @@ authors:
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-	natale:
+natale:
       name:           Natale
       site:           https://vk.com/id4804187
       avatar:         /assets/images/avatar3.jpg
@@ -44,7 +44,7 @@ authors:
       email:          fakemail@gmail.com
       twitter:        https://vk.com/id4804187
 	
-	serg:
+serg:
       name:           Sergey
       site:           https://vk.com/opensong
       avatar:         /assets/images/avatar4.jpg
