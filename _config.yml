@@ -35,14 +35,6 @@ authors:
       email:          fakemail@gmail.com
       twitter:        https://vk.com/id4804187
 
-   serg:
-      name:           Sergey
-      site:           https://vk.com/opensong
-      avatar:         /assets/images/avatar4.jpg
-      bio:            "Администратор сообщества OpenSongRu"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/OpenSongRu
-
 # Defaults
 defaults:
 
