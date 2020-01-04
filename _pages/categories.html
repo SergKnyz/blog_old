@@ -1,36 +1,30 @@
 ---
 title: Категории
 permalink: "/categories.html"
-layout: default
+layout: page
 ---
 
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-        <h1 class="font-weight-bold title h6 text-uppercase mb-4">Категории</h1>
-            
-        {% for category in site.categories %} 
-        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
-            
-        {% assign pages_list = category[1] %}
-        {% for post in pages_list %}
-        {% if post.title != null %}
-          {% if group == null or group == post.group %}
-         
-            {% include main-loop-card.html %}
-          {% endif %}
-        {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
+{% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign categories_words = site_categories | split:',' | sort %}
 
-        {% endfor %}
 
-        </div>
-        
-            <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-    </div>
-        
-    </div>
-</div>
+<ul class="tag-box inline">
+  {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ categories_words[item] | strip_newlines }}{% endcapture %}
+    <li><a href="/categories.html#{{ this_word | cgi_escape }}">{{ this_word }} <span>{{ site.categories[this_word].size }}</span></a></li>
+  {% endunless %}{% endfor %}
+</ul>
+
+{% for postscat in site.categories %}
+{% assign cat = postscat | first %}
+<h4 id="{{ cat | slugify }}"> - {{ cat }}</h4>
+<ul>
+	{% for post in site.categories[cat] %}
+	<li>
+		{{post.date | date: "%d-%m-%Y"}}
+		<a href="{{post.url}}">{{post.title}}</a>
+	</li>
+	{% endfor %}
+</ul>
+{% endfor %}
+
